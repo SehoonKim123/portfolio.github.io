@@ -25,6 +25,10 @@ body {
   right: 100px;
   /* 오른쪽부터 시작 자리잡아줌 */
 }
+.nav-right-items a{
+  text-decoration-line: none;
+  color: #fff;
+}
 
 .nav-item {
   margin-left: 20px; /* 글자 맨 끝 여백들이 길어짐  */
@@ -34,7 +38,7 @@ body {
   /* font-family: 'Barlow', sans-serif; */
   font-family: 'Cairo', sans-serif;
   text-align: left; /* 좌측정렬, 우측정렬등 */
-  font-size: 3.8rem;
+  font-size: 3.2rem;
   font-weight: 400; /* 두께 : weight*/
 }
 
@@ -105,7 +109,7 @@ img {
   position: relative;
 }
 /* 모든 div를 하니까 .을 안쓴다 */
-a {
+.item a {
   text-decoration-line: none;
   color: #fff;
   overflow: hidden;
