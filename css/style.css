@@ -14,7 +14,7 @@ body {
   display: flex; /* 가로로 자동 배열  */
   align-items: center; /* 가운데 정렬  */
   padding: 0 20px; /* 0은 위 아래 여백, 20은 왼 오 여백 0 20 0 20 (시계방향)  */
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.521);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.521);
   background-color: rgb(1, 50, 97);
   color: #fff;
   z-index: 1;
@@ -54,8 +54,9 @@ body {
   border-radius: 4px;
   margin-bottom: 50px;
   position: relative;
-  box-shadow: 0px 1px 3px 3px rgba(0, 0, 0, 0.521);
+  /* box-shadow: 0px 1px 3px 3px rgba(0, 0, 0, 0.521); */
   overflow: hidden;
+  border: 1px solid #a5a5a5;
   /* 영역 넘치는 모든 것들을 없앰 */
 }
 .item-wrapper {
@@ -66,11 +67,12 @@ body {
   font-size: 2rem; /* rem : 웹 기본 크기 : 1rem  */
   background: rgba(0, 0, 0, 0.03);
   text-align: center;
+  width: 100%;
   height: 53px;
   line-height: 53px;
-  /* background-color: rgba(17, 140, 255, 0.747); */
   background-color: #0043b2be;
-  box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.521);
+  border-bottom: 1px solid #a5a5a5;
+  /* box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.521); */
   color: #fff;
   /* 첫 px : 좌 우 shadow
     두번째 px 위 아래 
@@ -90,12 +92,11 @@ body {
 .item-details {
   text-align: justify;
   display: block;
-  width: 100%;
+  width: 90%;
   box-sizing: border-box;
-  padding-right: 20px;
   font-size: 1.2rem;
-  text-indent: 40px;
-  margin-top: 5px;
+  margin: 5px auto 0;
+  
   /* div 속성 block임
    같이 넣어주려면 자리 내주는 것 */
 }
